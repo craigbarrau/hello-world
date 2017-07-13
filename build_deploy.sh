@@ -4,8 +4,8 @@ export tag=$(docker build -t hello-world . | grep 'Successfully built' | tail -c
 
 echo $tag
 
-docker tag $tag mikarinneoracle/hello-world:latest
+docker tag $tag craigbarrau/hello-world:latest
 
-docker push mikarinneoracle/hello-world
+docker push craigbarrau/hello-world
 
-#docker run -it --rm -p 3000:3000 mikarinneoracle/hello-world:latest
+#docker run -it --rm -p 3000:3000 craigbarrau/hello-world:latest

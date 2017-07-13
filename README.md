@@ -10,5 +10,5 @@ It serves up a single HTML page.
 Start the container and publish port 3000 to some port on the host.
 
 <pre>
-docker run -d -p 3000:3000 mikarinneoracle/hello-world:latest
+docker run -d -p 3000:3000 craigbarrau/hello-world:latest
 </pre>
